@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai tap mo ta hinh chu nhat</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1400px" height="700px" style="border:1px solid #d3d3d3;"></canvas>
+<p id="result"></p>
+<script>
+    function getngaunhien(){
+        return Math.floor(Math.random() * 100)}
+    function getRandomColor(){
+        let red = getngaunhien();
+        let green = getngaunhien();
+        let blue = getngaunhien();
+        return "rgb(" + red + "," + blue + "," + green + ")";}
+    function hinhchunhat(dai, rong) {
+        this.dai = dai;
+        this.rong = rong;
+        this.getChuVi = function () {
+            this.ChuVi = (this.dai + this.rong) * 2;
+            return this.ChuVi;
+        };
+        this.getDienTich = function () {
+            this.DienTich = this.dai * this.rong;
+            return this.DienTich;
+        };
+        this.taohinhchunhat = function () {
+            let ctx = document.getElementById("myCanvas").getContext("2d");
+            ctx.beginPath();
+            ctx.rect(0,0, this.dai, this.rong);
+            ctx.fillStyle = getRandomColor();
+            ctx.fill();
+        }
+    }
+    let hinhcn = new hinhchunhat(Math.floor(Math.random() * window.innerWidth), Math.floor(Math.random() * window.innerHeight));
+    hinhcn.taohinhchunhat();
+    document.getElementById("result").innerHTML = "Diện tích= " + hinhcn.getDienTich() + " ; Chu vi= " + hinhcn.getChuVi();
+</script>
+</body>
+</html>
