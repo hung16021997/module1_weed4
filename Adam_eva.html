@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam và Eva</title>
+</head>
+<body>
+<script>
+    let Apple = function (weight) {
+        this.weight = weight;
+        this.setWeight = function (newWeight) {
+            return this.weight;
+        };
+        this.thanhpham = function () {
+            if (this.weight>0) {
+                this.weight--;
+            }
+        };
+    };
+    let Human = function (name,gender,weight,speak) {
+        this.name = name;
+        this.gender = gender;
+        this.weight = weight;
+        this.say = speak;
+        this.setSay = function (speak) {
+            this.say = this.name + ": " + speak;
+        };
+        this.setWeight = function (newWeight) {
+            this.weight = newWeight;
+        };
+        this.checkApple = function (apple) {
+            apple.weight;
+        };
+        this.eatApple = function (apple) {
+            if (apple.weight>0) {
+                apple.thanhpham();
+                this.weight++;
+            }
+        };
+    };
+    let apple = new Apple(10);
+    let Adam = new Human("Adam","male",80,"Hello! Eva");
+    let Eva = new Human("Eva","Famale",60,"Hello! Adam");
+    document.write(Adam.say+"<br/>");
+    document.write(Eva.say+"<br/>");
+    Adam.checkApple(apple);
+    Adam.setSay("Anh có 1 quả táo");
+    Eva.setSay("Oh!Em cũng muốn ăn");
+    document.write(Adam.say+"<br/>");
+    document.write(Eva.say+"<br/>");
+    Adam.setSay("Béo thế ăn gì lắm.");
+    Eva.setSay("Mày bảo cái gì cơ?");
+    document.write(Adam.say+"<br/>");
+    document.write(Eva.say+"<br/>");
+    Adam.setSay("À không có gì :D, Ăn đi nè!");
+    Eva.eatApple(apple);
+    Eva.eatApple(apple);
+    Eva.eatApple(apple);
+    Eva.eatApple(apple);
+    Eva.eatApple(apple);
+    Eva.eatApple(apple);
+    Eva.eatApple(apple);
+    Adam.setSay("Ăn gì lắm thế!chừa miếng với");
+    Eva.setSay("Tý để cho cái hạt nhé! 'ăn tiếp'");
+    document.write(Adam.say+"<br/>");
+    document.write(Eva.say+"<br/>");
+    document.write("Qủa táo còn: "+apple.weight+" miếng");
+    Eva.setWeight(70);
+    console.log(Eva.weight);
+</script>
+</body>
+</html>
