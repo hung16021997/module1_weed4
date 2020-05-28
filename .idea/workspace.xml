@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78dc44e-7df0-461e-a4ca-2ca1635f1949" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Adam_eva.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TH_funny_circles.html" beforeDir="false" afterPath="$PROJECT_DIR$/TH_funny_circles.html" afterDir="false" />
-    </list>
+    <list default="true" id="c78dc44e-7df0-461e-a4ca-2ca1635f1949" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -60,9 +56,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BT_cong_tac_vs_bong_den.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adam_eva.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="87">
               <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
             </state>
           </provider>
@@ -88,6 +93,7 @@
         <option value="$PROJECT_DIR$/TH_funny_circles.html" />
         <option value="$PROJECT_DIR$/BT_mo_ta_lop_chu_nhat.html" />
         <option value="$PROJECT_DIR$/Adam_eva.html" />
+        <option value="$PROJECT_DIR$/BT_cong_tac_vs_bong_den.html" />
       </list>
     </option>
   </component>
@@ -152,12 +158,12 @@
       <workItem from="1590568742997" duration="1172000" />
       <workItem from="1590572780680" duration="161000" />
       <workItem from="1590586744174" duration="493000" />
-      <workItem from="1590627956930" duration="563000" />
+      <workItem from="1590627956930" duration="1240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4294000" />
+    <option name="totallyTimeSpent" value="4971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1125" extended-state="0" />
@@ -210,6 +216,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Adam_eva.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BT_mo_ta_lop_chu_nhat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-212">
@@ -220,10 +233,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Adam_eva.html">
+    <entry file="file://$PROJECT_DIR$/BT_cong_tac_vs_bong_den.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        <state relative-caret-position="621">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>

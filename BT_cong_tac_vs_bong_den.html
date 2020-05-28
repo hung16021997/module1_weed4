@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mô tả Công tắc và đèn</title>
+</head>
+<body>
+<script>
+    let SwitchButton = function () {
+        this.switchOn = function () {
+            this.status = true;
+        };
+        this.switchOff = function () {
+            this.status = false;
+        };
+        this.connectToLamp = function (electricLamp) {
+            if (this.status) {
+                electricLamp.dangBat;
+            } else {
+                electricLamp.dangTat;
+            }
+        };
+    };
+    let ElectricLamp = function () {
+        this.dangBat = alert("Đèn đang sáng");
+        this.dangTat = alert("Đèn đang tắt");
+    };
+    let congtac1 = new SwitchButton();
+    let den1 = new ElectricLamp();
+    congtac1.connectToLamp(den1);
+    congtac1.switchOn();
+    congtac1.switchOff();
+</script>
+</body>
+</html>
